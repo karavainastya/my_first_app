@@ -222,7 +222,7 @@ def main(
     
     
     st.sidebar.title('Веб-приложение для Полины')
-    st.image('pol.jpg')
+    # st.image('pol.jpg')
     st.sidebar.image('pol.jpg')
     st.sidebar.info('From your sister❤️')
     
