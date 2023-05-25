@@ -8,8 +8,8 @@ from streamlit_player import st_player
 
 rain(
     emoji="❤️",
-    font_size=30,
-    falling_speed=5,
+    font_size=50,
+    falling_speed=7,
     animation_length="infinite",
 )
 
@@ -222,6 +222,7 @@ def main(
     
     
     st.sidebar.title('Веб-приложение для Полины')
+    st.image('pol.jpg')
     st.sidebar.image('pol.jpg')
     st.sidebar.info('From your sister❤️')
     
